@@ -34,10 +34,11 @@ This project implements and compares three automated visual inspection methods f
 │   ├── final_results_all_methods.csv# Combined comparison table
 │   ├── ae_model_<category>.pth      # Saved autoencoder weights (15 files) 
 │   └── padim_maps_<category>.npy    # Saved PaDiM anomaly maps (15 files)
+├── Final_Report.pdf
 ├── requirements.txt
 └── README.md
 ```
-* locate results/ in google drive
+* locate results/ and Project.ipynb in google drive
 ---
 
 ## Dataset
