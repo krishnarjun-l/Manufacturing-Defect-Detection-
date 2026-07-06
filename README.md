@@ -24,17 +24,18 @@ This project implements and compares three automated visual inspection methods f
 ## Repository Structure
 
 ```
-Project.ipynb                    # Main Colab notebook (all 5 parts)
-README.md                        # This file
-
-results/                         # Saved to Google Drive during execution
-    config.json                  # Dataset/experiment configuration
-    classical_results.csv        # One-Class SVM results per category
-    ae_results.csv               # Autoencoder results per category
-    padim_results.csv            # PaDiM results per category
-    final_results_all_methods.csv# Combined comparison table
-    ae_model_<category>.pth      # Saved autoencoder weights (15 files)
-    padim_maps_<category>.npy    # Saved PaDiM anomaly maps (15 files)
+.
+├── Project.ipynb                    # Main Colab notebook 
+├── results/
+│   ├── config.json                  # Dataset/experiment configuration
+│   ├── classical_results.csv        # One-Class SVM results per category
+│   ├── ae_results.csv               # Autoencoder results per category
+│   ├── padim_results.csv            # PaDiM results per category
+│   ├── final_results_all_methods.csv# Combined comparison table
+│   ├── ae_model_<category>.pth      # Saved autoencoder weights (15 files) 
+│   └── padim_maps_<category>.npy    # Saved PaDiM anomaly maps (15 files)
+├── requirements.txt
+└── README.md
 ```
 
 ---
